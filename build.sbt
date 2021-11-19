@@ -4,9 +4,9 @@ import java.net.URL
 
 name := "akka-contrib-legacy"
 
-version       := "0.1.0"
+version       := "0.2.0"
 organization  := "pl.newicom"
-scalaVersion  := "2.12.3"
+scalaVersion  := "2.13.6"
 
 scalacOptions  := Seq("-encoding", "utf8", "-deprecation", "-feature", "-unchecked")
 

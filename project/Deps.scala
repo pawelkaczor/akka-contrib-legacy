@@ -3,7 +3,7 @@ import sbt._
 object Deps {
 
   object Version {
-    val Akka                  = "2.5.6"
+    val Akka                  = "2.6.15"
 
     val Enumeratum            = "1.5.12"
 
