@@ -22,6 +22,6 @@ libraryDependencies += Akka.actor
 lazy val root = (project in file("."))
   .settings(
     Publish.settings ++ Seq(
-      publishTo := Some(if (isSnapshot.value) Opts.resolver.sonatypeSnapshots else Opts.resolver.sonatypeStaging)
+      publishTo := sonatypePublishToBundle.value
     )
   )
